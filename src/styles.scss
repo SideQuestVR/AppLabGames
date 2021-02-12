@@ -9,3 +9,26 @@ body{
 .relative{
   position: relative;
 }
+
+.padding {
+  padding-left: 8em;
+  padding-right: 8em;
+}
+@media screen and (min-width: 1900px) {
+  .padding{
+    padding-left: 10em!important;
+    padding-right: 10em!important;
+  }
+}
+@media screen and (max-width: 1660px) {
+  .padding {
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .padding{
+    padding-left: 1em!important;
+    padding-right: 1em!important;
+  }
+}
