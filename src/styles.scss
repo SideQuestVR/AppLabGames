@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+html{
+  height: 100%;
+  background: linear-gradient(to right, rgba(20, 20, 43, 0.4) 0%, rgba(20, 20, 43, 0.4) 100%) left center / cover no-repeat, url('https://sidequestvr.com/assets/images/Onboard.jpg') right center / cover no-repeat;
+  background-attachment: fixed;
+}
+body{
+  height: 100%;
+}
+.relative{
+  position: relative;
+}
