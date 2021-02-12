@@ -5,11 +5,7 @@ export interface App{
   apps_id: number;
   users_id: number;
   summary: string;
-  description: string;
-  app_banner: string;
   image_url: string;
-  app_categories_id: string;
-  website: string;
   supports_go: boolean;
   supports_quest: boolean;
   supports_link: boolean;
