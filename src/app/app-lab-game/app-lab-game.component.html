@@ -1,0 +1,21 @@
+<div (mouseenter)="isHovered = true" (mouseleave)="isHovered = false" class="z-depth-5">
+  <a [href]="app.external_listing_url" target="_blank" class="relative">
+    <div class="home-app-image">
+      <div class="home-community-img" [ngClass]="{'hovered': isHovered}"
+           [ngStyle]="{'background-image': 'url(\'' + app.image_url + '\')'}">
+      </div>
+      <div class="bottom-stats-container community-small-text" [ngClass]="{'hovered': isHovered}">
+        <div class="community-name-text truncate">
+          {{app.name}}
+        </div>
+        <div class="clearfix"></div>
+        <div class="bottom-stats">
+          {{(app.sort_rating||0)|number:'1.2-2'}} / 5.00
+        </div>
+        <div class="bottom-stats">
+          {{(app.number_of_rating||0)}} Reviews
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
