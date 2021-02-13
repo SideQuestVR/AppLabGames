@@ -16,8 +16,6 @@ export class AppLabGameComponent implements OnInit {
   }
 
   ngOnInit(): void {
-
-    console.log(this.app);
   }
 
 }

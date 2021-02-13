@@ -61,7 +61,6 @@ class AppLabGameComponent {
         this.isHovered = false;
     }
     ngOnInit() {
-        console.log(this.app);
     }
 }
 AppLabGameComponent.ɵfac = function AppLabGameComponent_Factory(t) { return new (t || AppLabGameComponent)(); };
