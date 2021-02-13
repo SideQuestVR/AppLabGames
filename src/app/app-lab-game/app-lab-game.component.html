@@ -1,5 +1,5 @@
 <div (mouseenter)="isHovered = true" (mouseleave)="isHovered = false" class="z-depth-5">
-  <a [href]="app.external_listing_url" target="_blank" class="relative">
+  <a [href]="app.external_listing_url" target="_top" class="relative">
     <div class="home-app-image">
       <div class="home-community-img" [ngClass]="{'hovered': isHovered}"
            [ngStyle]="{'background-image': 'url(\'' + app.image_url + '\')'}">
