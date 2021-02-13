@@ -119,40 +119,50 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function AppComponent_div_0_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "div", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "div", 11);
 } }
 function AppComponent_div_1_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "div", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "div", 12);
 } }
 function AppComponent_div_3_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "img", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "img", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](3, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "br");
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "h3", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](5, "h3", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](6, "App Lab Games");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } }
 function AppComponent_div_5_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "app-app-lab-game", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "app-app-lab-game", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const app_r6 = ctx.$implicit;
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("app", app_r6);
 } }
-function AppComponent_div_7_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 11);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "a", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](2, "img", 13);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+function AppComponent_div_11_div_3_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1, " <iframe src=\"https://applab.games/?embed=1\" frameborder=\"0\" class=\"iframe\" width=\"100%\" height=\"500px\"></iframe> ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
 } }
-function AppComponent_app_footer_10_Template(rf, ctx) { if (rf & 1) {
+function AppComponent_div_11_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "h4", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](2, "Embed on Your Website");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](3, AppComponent_div_11_div_3_Template, 2, 0, "div", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx_r4.isEmbed);
+} }
+function AppComponent_app_footer_12_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "app-footer");
 } }
 class AppComponent {
@@ -176,7 +186,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 11, vars: 6, consts: [["class", "background", 4, "ngIf"], ["class", "background-color", 4, "ngIf"], [1, "container"], ["class", "center-align", 4, "ngIf"], [1, "row"], ["class", "col s12 m4 relative", 4, "ngFor", "ngForOf"], [1, "center-align", "more-spacing"], ["href", "https://sidequestvr.com", 1, "small-button"], [4, "ngIf"], [1, "background"], [1, "background-color"], [1, "center-align"], ["href", "https://sidequestvr.com"], ["src", "../../assets/images/logo.png", 1, "title-spacing", "responsive-img", "logo-max-width"], [1, "white-text", "sub-title-spacing"], [1, "col", "s12", "m4", "relative"], [3, "app"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 13, vars: 7, consts: [["class", "background", 4, "ngIf"], ["class", "background-color", 4, "ngIf"], [1, "container"], ["class", "center-align", 4, "ngIf"], [1, "row"], ["class", "col s12 m4 relative", 4, "ngFor", "ngForOf"], [1, "center-align", "more-spacing"], [1, "center-align", "title-spacing", "white-text"], ["href", "https://sidequestvr.com"], ["src", "../../assets/images/logo.png", 1, "responsive-img", "logo-max-width"], [4, "ngIf"], [1, "background"], [1, "background-color"], [1, "center-align"], ["src", "../../assets/images/logo.png", 1, "title-spacing", "responsive-img", "logo-max-width"], [1, "white-text", "sub-title-spacing"], [1, "col", "s12", "m4", "relative"], [3, "app"], [1, "white-text", "title-spacing"], ["class", "embed-code", 4, "ngIf"], [1, "embed-code"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, AppComponent_div_0_Template, 1, 0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, AppComponent_div_1_Template, 1, 0, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 2);
@@ -185,13 +195,16 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](5, AppComponent_div_5_Template, 2, 1, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](6, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](7, AppComponent_div_7_Template, 3, 0, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](8, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, "More Games & Apps on SideQuest");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](7, "h5", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](9, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "img", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](11, AppComponent_div_11_Template, 4, 1, "div", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](10, AppComponent_app_footer_10_Template, 1, 0, "app-footer", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](12, AppComponent_app_footer_12_Template, 1, 0, "app-footer", 10);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.isEmbed);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
@@ -200,11 +213,13 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.isEmbed);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.apps);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.isEmbed);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", ctx.isEmbed ? "powered with love by" : "more games & apps on", " ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.isEmbed);
-    } }, styles: [".title-spacing[_ngcontent-%COMP%] {\n  margin-top: 5em;\n}\n\n.sub-title-spacing[_ngcontent-%COMP%] {\n  margin-bottom: 2em;\n}\n\n.more-spacing[_ngcontent-%COMP%] {\n  margin-top: 4em;\n  margin-bottom: 4em;\n}\n\n.background[_ngcontent-%COMP%] {\n  position: fixed;\n  z-index: -1;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(to right, rgba(20, 20, 43, 0.4) 0%, rgba(20, 20, 43, 0.4) 100%) left center/cover no-repeat, url(\"https://sidequestvr.com/assets/images/Onboard.jpg\") right center/cover no-repeat;\n  background-attachment: fixed;\n}\n\n.background-color[_ngcontent-%COMP%] {\n  position: fixed;\n  z-index: -1;\n  width: 100%;\n  height: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZUFBQTtBQUNGOztBQUNBO0VBQ0Usa0JBQUE7QUFFRjs7QUFBQTtFQUNFLGVBQUE7RUFDQSxrQkFBQTtBQUdGOztBQURBO0VBQ0UsZUFBQTtFQUNBLFdBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLDhNQUFBO0VBQ0EsNEJBQUE7QUFJRjs7QUFGQTtFQUNFLGVBQUE7RUFDQSxXQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7QUFLRiIsImZpbGUiOiJhcHAuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudGl0bGUtc3BhY2luZ3tcclxuICBtYXJnaW4tdG9wOiA1ZW07XHJcbn1cclxuLnN1Yi10aXRsZS1zcGFjaW5ne1xyXG4gIG1hcmdpbi1ib3R0b206IDJlbTtcclxufVxyXG4ubW9yZS1zcGFjaW5ne1xyXG4gIG1hcmdpbi10b3A6IDRlbTtcclxuICBtYXJnaW4tYm90dG9tOiA0ZW07XHJcbn1cclxuLmJhY2tncm91bmR7XHJcbiAgcG9zaXRpb246IGZpeGVkO1xyXG4gIHotaW5kZXg6LTE7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCh0byByaWdodCwgcmdiYSgyMCwgMjAsIDQzLCAwLjQpIDAlLCByZ2JhKDIwLCAyMCwgNDMsIDAuNCkgMTAwJSkgbGVmdCBjZW50ZXIgLyBjb3ZlciBuby1yZXBlYXQsIHVybCgnaHR0cHM6Ly9zaWRlcXVlc3R2ci5jb20vYXNzZXRzL2ltYWdlcy9PbmJvYXJkLmpwZycpIHJpZ2h0IGNlbnRlciAvIGNvdmVyIG5vLXJlcGVhdDtcclxuICBiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6IGZpeGVkO1xyXG59XHJcbi5iYWNrZ3JvdW5kLWNvbG9ye1xyXG4gIHBvc2l0aW9uOiBmaXhlZDtcclxuICB6LWluZGV4Oi0xO1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGhlaWdodDogMTAwJTtcclxufVxyXG4iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.isEmbed);
+    } }, styles: [".title-spacing[_ngcontent-%COMP%] {\n  margin-top: 5em;\n}\n\n.sub-title-spacing[_ngcontent-%COMP%] {\n  margin-bottom: 2em;\n}\n\n.more-spacing[_ngcontent-%COMP%] {\n  margin-top: 4em;\n  margin-bottom: 4em;\n}\n\n.background[_ngcontent-%COMP%] {\n  position: fixed;\n  z-index: -1;\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(to right, rgba(20, 20, 43, 0.4) 0%, rgba(20, 20, 43, 0.4) 100%) left center/cover no-repeat, url(\"https://sidequestvr.com/assets/images/Onboard.jpg\") right center/cover no-repeat;\n  background-attachment: fixed;\n}\n\n.background-color[_ngcontent-%COMP%] {\n  position: fixed;\n  z-index: -1;\n  width: 100%;\n  height: 100%;\n}\n\n.embed-code[_ngcontent-%COMP%] {\n  background: #36393f;\n  border-radius: 5px;\n  padding: 40px;\n  color: white;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uXFwuLlxcYXBwLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsZUFBQTtBQUNGOztBQUNBO0VBQ0Usa0JBQUE7QUFFRjs7QUFBQTtFQUNFLGVBQUE7RUFDQSxrQkFBQTtBQUdGOztBQURBO0VBQ0UsZUFBQTtFQUNBLFdBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLDhNQUFBO0VBQ0EsNEJBQUE7QUFJRjs7QUFGQTtFQUNFLGVBQUE7RUFDQSxXQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7QUFLRjs7QUFIQTtFQUNFLG1CQUFBO0VBQ0Esa0JBQUE7RUFDQSxhQUFBO0VBQ0EsWUFBQTtBQU1GIiwiZmlsZSI6ImFwcC5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi50aXRsZS1zcGFjaW5ne1xyXG4gIG1hcmdpbi10b3A6IDVlbTtcclxufVxyXG4uc3ViLXRpdGxlLXNwYWNpbmd7XHJcbiAgbWFyZ2luLWJvdHRvbTogMmVtO1xyXG59XHJcbi5tb3JlLXNwYWNpbmd7XHJcbiAgbWFyZ2luLXRvcDogNGVtO1xyXG4gIG1hcmdpbi1ib3R0b206IDRlbTtcclxufVxyXG4uYmFja2dyb3VuZHtcclxuICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgei1pbmRleDotMTtcclxuICB3aWR0aDogMTAwJTtcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KHRvIHJpZ2h0LCByZ2JhKDIwLCAyMCwgNDMsIDAuNCkgMCUsIHJnYmEoMjAsIDIwLCA0MywgMC40KSAxMDAlKSBsZWZ0IGNlbnRlciAvIGNvdmVyIG5vLXJlcGVhdCwgdXJsKCdodHRwczovL3NpZGVxdWVzdHZyLmNvbS9hc3NldHMvaW1hZ2VzL09uYm9hcmQuanBnJykgcmlnaHQgY2VudGVyIC8gY292ZXIgbm8tcmVwZWF0O1xyXG4gIGJhY2tncm91bmQtYXR0YWNobWVudDogZml4ZWQ7XHJcbn1cclxuLmJhY2tncm91bmQtY29sb3J7XHJcbiAgcG9zaXRpb246IGZpeGVkO1xyXG4gIHotaW5kZXg6LTE7XHJcbiAgd2lkdGg6IDEwMCU7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG59XHJcbi5lbWJlZC1jb2Rle1xyXG4gIGJhY2tncm91bmQ6ICMzNjM5M2Y7XHJcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gIHBhZGRpbmc6IDQwcHg7XHJcbiAgY29sb3I6IHdoaXRlO1xyXG59XHJcbiJdfQ== */"] });
 
 
 /***/ }),

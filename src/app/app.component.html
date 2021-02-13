@@ -14,12 +14,19 @@
     </div>
   </div>
   <div class="center-align more-spacing">
-    <div class="center-align" *ngIf="isEmbed">
-      <a href="https://sidequestvr.com">
-        <img src="../../assets/images/logo.png" class="title-spacing responsive-img logo-max-width"/>
-      </a>
+    <h5 class="center-align title-spacing white-text">
+      {{isEmbed ? 'powered with love by' : 'more games & apps on'}}
+    </h5>
+    <a href="https://sidequestvr.com">
+      <img src="../../assets/images/logo.png" class=" responsive-img logo-max-width"/>
+    </a>
+    <div  *ngIf="!isEmbed">
+      <h4 class="white-text title-spacing">Embed on Your Website</h4>
+      <div class="embed-code" *ngIf="!isEmbed">
+        &lt;iframe src="https://applab.games/?embed=1" frameborder="0" class="iframe" width="100%" height="500px">&lt;/iframe>
+      </div>
     </div>
-    <a class="small-button" href="https://sidequestvr.com">More Games & Apps on SideQuest</a>
   </div>
+
 </div>
 <app-footer *ngIf="!isEmbed"></app-footer>
