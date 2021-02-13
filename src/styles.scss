@@ -9,7 +9,28 @@ body{
 .relative{
   position: relative;
 }
+.small-button{
+  border-radius: 12px;
+  display: inline-block;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+  background: rgba(26, 29, 60, 0.5);
+    padding: 8px 12px;
+    line-height: 14px;
+    height: 32px;
+  }
 
+.small-button.active, .small-button:hover{
+  background: #DF175F;
+  border: 2px solid #DF175F;
+}
+.smaller-button.active, .small-button.active{
+  border: 2px solid #ffffff;
+}
 .padding {
   padding-left: 8em;
   padding-right: 8em;

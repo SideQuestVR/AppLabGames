@@ -1,10 +1,15 @@
 <div class="container">
-  <h2 class="white-text title-spacing center-align">SideQuest App Lab Games</h2>
-  <div class="white-text center-align"><a href="https://sidequestvr.com"></a></div>
+  <div class="center-align">
+    <img src="../../assets/images/logo.png" class="title-spacing responsive-img logo-max-width"/><br><br>
+    <h3 class="white-text sub-title-spacing">App Lab Games</h3>
+  </div>
   <div class="row">
     <div class="col s12 m4 relative" *ngFor="let app of apps">
       <app-app-lab-game [app]="app"></app-app-lab-game>
     </div>
+  </div>
+  <div class="center-align more-spacing">
+    <a class="small-button" href="https://sidequestvr.com">More Games & Apps on SideQuest</a>
   </div>
 </div>
 <app-footer></app-footer>
