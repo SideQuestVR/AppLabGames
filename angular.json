@@ -29,6 +29,7 @@
             "assets": [
               "src/favicon.ico",
               "src/CNAME",
+              "src/embed.html",
               "src/assets"
             ],
             "styles": [

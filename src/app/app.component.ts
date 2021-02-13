@@ -34,8 +34,10 @@ export class AppComponent {
 
   title = 'AppLab Games';
   apps: App[] = [];
-
+  isEmbed: boolean;
   constructor() {
+    const url = new URL(window.location.href);
+    this.isEmbed = !!url.searchParams.get('embed');
     this.loadApps();
   }
 

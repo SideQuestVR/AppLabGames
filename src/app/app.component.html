@@ -1,6 +1,11 @@
+<div class="background" *ngIf="!isEmbed"></div>
+<div class="background-color" *ngIf="isEmbed"></div>
 <div class="container">
-  <div class="center-align">
-    <img src="../../assets/images/logo.png" class="title-spacing responsive-img logo-max-width"/><br><br>
+  <div class="center-align" *ngIf="!isEmbed">
+    <a href="https://sidequestvr.com">
+      <img src="../../assets/images/logo.png" class="title-spacing responsive-img logo-max-width"/>
+    </a>
+    <br><br>
     <h3 class="white-text sub-title-spacing">App Lab Games</h3>
   </div>
   <div class="row">
@@ -9,7 +14,12 @@
     </div>
   </div>
   <div class="center-align more-spacing">
+    <div class="center-align" *ngIf="isEmbed">
+      <a href="https://sidequestvr.com">
+        <img src="../../assets/images/logo.png" class="title-spacing responsive-img logo-max-width"/>
+      </a>
+    </div>
     <a class="small-button" href="https://sidequestvr.com">More Games & Apps on SideQuest</a>
   </div>
 </div>
-<app-footer></app-footer>
+<app-footer *ngIf="!isEmbed"></app-footer>
