@@ -14,13 +14,13 @@
     </div>
   </div>
   <div class="center-align more-spacing">
-    <h5 class="center-align title-spacing white-text">
+    <h5 class="center-align title-spacing white-text" [ngClass]="{'white-text': !isLight}">
       {{isEmbed ? 'powered with love by' : 'more games & apps on'}}
     </h5>
-    <a href="https://sidequestvr.com" target="_top" >
-      <img src="../../assets/images/logo.png" class=" responsive-img logo-max-width"/>
+    <a href="https://sidequestvr.com" target="_top">
+      <img src="{{isLight ? '../../assets/images/logo-black.png' : '../../assets/images/logo.png'}}" class=" responsive-img logo-max-width"/>
     </a>
-    <div  *ngIf="!isEmbed">
+    <div *ngIf="!isEmbed">
       <h4 class="white-text title-spacing">Embed on Your Website</h4>
       <div class="embed-code" *ngIf="!isEmbed">
         &lt;iframe src="https://applab.games/?embed=1" frameborder="0" class="iframe" width="100%" height="500px">&lt;/iframe>

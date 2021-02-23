@@ -165,12 +165,14 @@ function AppComponent_div_11_Template(rf, ctx) { if (rf & 1) {
 function AppComponent_app_footer_12_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "app-footer");
 } }
+const _c0 = function (a0) { return { "white-text": a0 }; };
 class AppComponent {
     constructor() {
         this.title = 'AppLab Games';
         this.apps = [];
         const url = new URL(window.location.href);
         this.isEmbed = !!url.searchParams.get('embed');
+        this.isLight = !!url.searchParams.get('light');
         this.loadApps();
     }
     loadApps() {
@@ -186,7 +188,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 13, vars: 7, consts: [["class", "background", 4, "ngIf"], ["class", "background-color", 4, "ngIf"], [1, "container"], ["class", "center-align", 4, "ngIf"], [1, "row"], ["class", "col s12 m4 relative", 4, "ngFor", "ngForOf"], [1, "center-align", "more-spacing"], [1, "center-align", "title-spacing", "white-text"], ["href", "https://sidequestvr.com", "target", "_top"], ["src", "../../assets/images/logo.png", 1, "responsive-img", "logo-max-width"], [4, "ngIf"], [1, "background"], [1, "background-color"], [1, "center-align"], ["src", "../../assets/images/logo.png", 1, "title-spacing", "responsive-img", "logo-max-width"], [1, "white-text", "sub-title-spacing"], [1, "col", "s12", "m4", "relative"], [3, "app"], [1, "white-text", "title-spacing"], ["class", "embed-code", 4, "ngIf"], [1, "embed-code"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 13, vars: 11, consts: [["class", "background", 4, "ngIf"], ["class", "background-color", 4, "ngIf"], [1, "container"], ["class", "center-align", 4, "ngIf"], [1, "row"], ["class", "col s12 m4 relative", 4, "ngFor", "ngForOf"], [1, "center-align", "more-spacing"], [1, "center-align", "title-spacing", "white-text", 3, "ngClass"], ["href", "https://sidequestvr.com", "target", "_top"], [1, "responsive-img", "logo-max-width", 3, "src"], [4, "ngIf"], [1, "background"], [1, "background-color"], [1, "center-align"], ["src", "../../assets/images/logo.png", 1, "title-spacing", "responsive-img", "logo-max-width"], [1, "white-text", "sub-title-spacing"], [1, "col", "s12", "m4", "relative"], [3, "app"], [1, "white-text", "title-spacing"], ["class", "embed-code", 4, "ngIf"], [1, "embed-code"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](0, AppComponent_div_0_Template, 1, 0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](1, AppComponent_div_1_Template, 1, 0, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "div", 2);
@@ -213,9 +215,13 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.isEmbed);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngForOf", ctx.apps);
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpureFunction1"](9, _c0, !ctx.isLight));
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" ", ctx.isEmbed ? "powered with love by" : "more games & apps on", " ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵpropertyInterpolate"]("src", ctx.isLight ? "../../assets/images/logo-black.png" : "../../assets/images/logo.png", _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsanitizeUrl"]);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.isEmbed);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", !ctx.isEmbed);
@@ -255,8 +261,7 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineInjector
 (function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_1__["AppComponent"],
         _app_lab_game_app_lab_game_component__WEBPACK_IMPORTED_MODULE_2__["AppLabGameComponent"],
         _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"]] }); })();
-_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsetComponentScope"](_app_component__WEBPACK_IMPORTED_MODULE_1__["AppComponent"], [_angular_common__WEBPACK_IMPORTED_MODULE_5__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _app_lab_game_app_lab_game_component__WEBPACK_IMPORTED_MODULE_2__["AppLabGameComponent"],
-    _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]], []);
+_angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsetComponentScope"](_app_component__WEBPACK_IMPORTED_MODULE_1__["AppComponent"], [_angular_common__WEBPACK_IMPORTED_MODULE_5__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"], _app_lab_game_app_lab_game_component__WEBPACK_IMPORTED_MODULE_2__["AppLabGameComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_5__["NgClass"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]], []);
 
 
 /***/ }),
