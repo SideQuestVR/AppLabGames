@@ -6,7 +6,7 @@
 }
 .more-spacing{
   margin-top: 4em;
-  margin-bottom: 4em;
+  margin-bottom: 0em;
 }
 .background{
   position: fixed;
@@ -27,4 +27,11 @@
   border-radius: 5px;
   padding: 40px;
   color: white;
+}
+.less-margin-bottom{
+  margin-bottom: 1em;
+}
+.suggest-link{
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
 }

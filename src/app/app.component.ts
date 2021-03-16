@@ -45,7 +45,7 @@ export class AppComponent {
 
   async loadApps(): Promise<void> {
     try {
-      const resp = await fetch('https://api.sidequestvr.com/v2/apps?limit=200&is_app_lab=true&has_oculus_url=true&sortOn=hot_sort_rating');
+      const resp = await fetch('https://api.sidequestvr.com/v2/apps?limit=500&is_app_lab=true&has_oculus_url=true&sortOn=hot_sort_rating');
       this.apps = await resp.json();
     } catch (e) {
       alert(e);
