@@ -178,7 +178,7 @@ class AppComponent {
     loadApps() {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
             try {
-                const resp = yield fetch('https://api.sidequestvr.com/v2/apps?limit=500&is_app_lab=true&has_oculus_url=true&sortOn=hot_sort_rating&cache_bust=' + new Date().getTime());
+                const resp = yield fetch('https://api.sidequestvr.com/v2/apps?limit=500&is_app_lab=true&has_oculus_url=true&sortOn=downloads&descending=true&cache_bust=' + new Date().getTime());
                 this.apps = yield resp.json();
             }
             catch (e) {
