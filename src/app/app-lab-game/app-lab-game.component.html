@@ -2,7 +2,7 @@
   <a [href]="app.external_listing_url" target="_top" class="relative">
     <div class="home-app-image">
       <div class="home-community-img" [ngClass]="{'hovered': isHovered}"
-           [ngStyle]="{'background-image': 'url(\'' + app.image_url + '\')'}">
+           [ngStyle]="{'background-image': 'url(\'' + app.image_url + '?size=256\')'}">
       </div>
       <div class="bottom-stats-container community-small-text" [ngClass]="{'hovered': isHovered}">
         <div class="community-name-text truncate">
