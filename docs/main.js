@@ -173,7 +173,12 @@ class AppComponent {
         const url = new URL(window.location.href);
         this.isEmbed = !!url.searchParams.get('embed');
         this.isLight = !!url.searchParams.get('light');
-        this.loadApps();
+        if (this.isEmbed) {
+            this.loadApps();
+        }
+        else {
+            window.location.href = 'https://sidequestvr.com/apps/applab/0/rating';
+        }
     }
     loadApps() {
         return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"])(this, void 0, void 0, function* () {
